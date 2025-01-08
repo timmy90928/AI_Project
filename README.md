@@ -1,7 +1,7 @@
 # Restaurant collection system
 [![Author](https://img.shields.io/badge/Author-%20WeiWen%20Wu-blue)](https://github.com/timmy90928) ![GitHub last commit](https://img.shields.io/github/last-commit/timmy90928/AI_Project) ![GitHub repo size](https://img.shields.io/github/repo-size/timmy90928/AI_Project) ![GitHub Release](https://img.shields.io/github/v/release/timmy90928/AI_Project) ![GitHub Release Date](https://img.shields.io/github/release-date/timmy90928/AI_Project)
 
-Restaurant collection API.
+AI Project - Restaurant collection API.
 
 Run from sources
 ----------------
