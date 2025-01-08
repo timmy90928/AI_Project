@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<style>
+    .mr {
+        margin-right: 30px;
+    }
+    img {
+        margin-left: 20px; 
+        width: 40px; 
+        height: 40px;
+    }
+
+    @media (max-width: 769px) {
+    .mr {
+        margin-right: 5px;
+    }
+    img {
+        margin-left: 5px; 
+        width: 40px; 
+        height: 40px;
+    }
+}
+</style>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='common.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename = 'restaurant.ico') }}" type="image/x-icon" >
+        <link rel="shortcut icon" href="{{ url_for('static', filename = 'restaurant.ico') }}" type="image/x-icon" >
+        <title>AI Project API</title>
+    </head>
+    <header>
+        <div></div>
+        <div><!-- left -->
+            <h2 class="to-home">
+                {% block site_header_title %} - 餐廳資料蒐集系統{% endblock %}
+            </h2>
+        </div>
+        <div></div>
+    </header>
+</html>
+{% block content %}{% endblock %}

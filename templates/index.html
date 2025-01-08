@@ -1,0 +1,14 @@
+{% import 'common/actions.html' as act with context %}
+
+{% extends 'common/basic.html' %}
+<body>
+    {% block site_header_title %}AI Project {{ super() }}{% endblock %}
+</body>
+{% block content %}
+{{act.test()}}
+{{act.alert('請先登入')}}
+{% endblock %}
+
+
+
+

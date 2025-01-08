@@ -1,0 +1,18 @@
+
+{% macro test() %}
+<a>test</a>
+{% endmacro %}
+
+{% macro post() %}
+<a>test</a>
+{% endmacro %}
+
+
+{% macro alert(message) %}
+<script>
+    window.addEventListener('load', function() {
+        alert('{{ message }}');
+        // window.history.back();
+    });
+</script>
+{% endmacro %}
